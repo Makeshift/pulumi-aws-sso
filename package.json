@@ -1,0 +1,26 @@
+{
+  "name": "pulumi-aws-sso-login",
+  "main": "src/index.ts",
+  "type": "module",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "files": [
+    "/src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sso": "^3.658.1",
+    "@aws-sdk/client-sso-oidc": "^3.658.1",
+    "keyv": "^5.0.3",
+    "keyv-file": "^5.0.3",
+    "tsx": "^4.19.1",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "yarn@1.22.22"
+}

@@ -1,0 +1,35 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.fixAll.eslint": "explicit",
+      "source.editor.organizeImports": "explicit",
+      "source.organizeImports": "explicit",
+      "source.sortMembers": "explicit"
+    },
+    "editor.formatOnSave": true
+  },
+  "docthis.includeMemberOfOnClassMembers": false,
+  "docthis.includeMemberOfOnInterfaceMembers": false,
+  "explorer.excludeGitIgnore": false,
+  "typescript.tsdk": "✨ @echobox/repository-infrastructure-common-sdk/node_modules/typescript/lib",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.lintTask.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.execArgv": [
+    "--max_old_space_size=8192"
+  ],
+  // this one might not apply from this file but it's here for reference - copy it into your user settings.json
+  "typescript.tsserver.maxTsServerMemory": 8192
+}
